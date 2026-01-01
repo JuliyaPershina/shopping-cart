@@ -1,12 +1,77 @@
-# React + Vite
+# 🛒 Shopping Cart React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Shopping Cart Screenshot](./scrin.png)
 
-Currently, two official plugins are available:
+A simple and modern **Shopping Cart** application built with **React**, **Vite**, and **Tailwind CSS**.  
+The app demonstrates product listing, cart management, and state handling using React Context.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:**  
+https://shopping-cart-topaz-nu.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 📦 Product catalog loaded from a local JSON file
+- ➕ Add products to cart
+- ➖ Increase / decrease product quantity
+- 🗑 Remove items from cart
+- 🧹 Clear cart
+- 💾 Cart persistence using `localStorage`
+- 🎨 Clean and responsive UI with Tailwind CSS
+- ✨ Smooth dropdown animation for cart preview
+
+---
+
+## 🛠 Technologies Used
+
+- **React** (Context API, Hooks)
+- **Vite**
+- **Tailwind CSS**
+- **React Icons**
+- **Local JSON data**
+- **Vercel** (deployment)
+
+---
+
+
+## 📦 Data Source
+
+Products are loaded from a local static file:
+
+/public/db.json
+
+No external API or API key is required.
+
+---
+
+## 🌍 Deployment
+
+The project is deployed on Vercel.
+
+Live URL:
+👉 https://shopping-cart-topaz-nu.vercel.app/
+
+---
+
+## 👤 Author
+
+Created by Yuliia Pershina
+
+GitHub: https://github.com/JuliyaPershina/shopping-cart
+
+---
+
+## 📌 Notes
+
+This project is intended for learning and demonstration purposes:
+
+React Context
+
+State management
+
+Component composition
+
+Deployment workflow
+
+⭐ If you like this project, feel free to star the repository!
